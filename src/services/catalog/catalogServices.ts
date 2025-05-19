@@ -31,11 +31,5 @@ class CatalogServices {
         return {message:"product registered successfully"}
     }
     
-    async exListCatalog(){
-
-        const listCatalog = await prismaClient.catalog.findMany({})
-        return(listCatalog)
-
-    }
 }
 export {CatalogServices}

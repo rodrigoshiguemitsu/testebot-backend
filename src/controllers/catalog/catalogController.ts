@@ -27,16 +27,6 @@ class CatalogController{
         res.json(response)
         return
     }
-
-    
-    async handleListCatalog(req:Request, res:Response) {
-        
-        const listCatalog = new CatalogServices()
-        const response = await listCatalog.exListCatalog()
-
-        res.json(response)
-        return
-    }
     
 }
 export {CatalogController}

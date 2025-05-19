@@ -12,10 +12,9 @@ rotas.post("/create-category", new CategoryController().handleCreateCategory)
 
 //Catalog
 rotas.post("/create-catalog", new CatalogController().handleCreateCatalog)
-rotas.get("/list-catalog", new CatalogController().handleListCatalog)
 
 //ChatOpenAi
-rotas.post("/chatbot", ChatbotHandler)
+rotas.post("/messages", ChatbotHandler)
 
 
 
