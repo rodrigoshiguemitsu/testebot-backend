@@ -25,8 +25,5 @@ class CategoryServices {
         })
         return {message:"category created successfully"}
     }
-
-
-
 }
 export {CategoryServices}

@@ -37,5 +37,6 @@ class CatalogController{
         res.json(response)
         return
     }
+    
 }
 export {CatalogController}
